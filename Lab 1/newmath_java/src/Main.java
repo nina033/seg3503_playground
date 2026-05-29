@@ -1,19 +1,19 @@
 public class Main {
 
-  public static void main( String[] args ) {
+  public static void main(String[] args) {
 
-    printToScreen("Newmath (type 'exit' to exit program)");
+    printToScreen("Newmath (type 'exit' to exit program)"); // Java lab
 
     while (true) {
 
-      printToScreen("Numerator: " , false);
+      printToScreen("Numerator: ", false);
       String numeratorInput = System.console().readLine();
 
       if ("exit".equals(numeratorInput)) {
         break;
       }
 
-      printToScreen("Demoninator: " , false);
+      printToScreen("Demoninator: ", false);
       String denominatorInput = System.console().readLine();
 
       int numerator = Integer.parseInt(numeratorInput);
