@@ -22,3 +22,6 @@ cd Lab 1/newmath_ex
 ### ExUnit Tests
 cd Lab 1/newmath_ex
 ./bin/test
+
+## Screenshots
+See attached document (SEG3503 Lab 1 Soumission_Nina Ukoha.pdf)for screenshots of running code.
